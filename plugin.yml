@@ -1,0 +1,16 @@
+name: HappyHotel
+main: com.github.nu-net-networks.HappyHotel.HappyHotel
+version: 1.0beta
+permissions:
+    happyhotel.*:
+        description: give access to all blocks
+        children:
+            happyhotel.info: true
+    happyhotel.info:
+        default: false
+commands:
+    hh-info:
+        description: Get all HappyHotel info
+        usage: "Usage : /<command>"
+        permission: happyhotel.info
+        permission-message: You don't have permission <permission>
