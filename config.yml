@@ -1,0 +1,9 @@
+# default config.yml
+info:
+  - Rooms ##/##
+  - Average Price Paid $##.##
+  - Rooms on Auto Renew
+help:
+  - &L/hh-info&R - Hotel Info
+  - &L/hh-help&R - HappyHotel Help (This)
+  
