@@ -6,11 +6,28 @@ permissions:
         description: give access to all blocks
         children:
             happyhotel.info: true
+            happyhotel.help: true
+    happyhotel.rent:
+        description: give access to all blocks
+        children:
+            happyhotel.checkin: true
+            happyhotel.checkout: true
     happyhotel.info:
+        default: false
+    happyhotel.help:
+        default: true
+    happyhotel.checkin:
+        default: false
+    happyhotel.checkout:
         default: false
 commands:
     hh-info:
         description: Get all HappyHotel info
         usage: "Usage : /<command>"
         permission: happyhotel.info
+        permission-message: You don't have permission <permission>
+    hh-help:
+        description: Get HappyHotel help
+        usage: "Usage : /<command>"
+        permission: happyhotel.help
         permission-message: You don't have permission <permission>
