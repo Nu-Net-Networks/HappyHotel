@@ -15,3 +15,4 @@ Sign based Room Renting/Access control. Do your users want a place in town to st
 * Hotel Stats *?(Web Site)?*
 * Checkout at time or recheckout
 * Compatible with PermissionEx
+* (optional) membership system Points/free room

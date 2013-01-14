@@ -20,6 +20,8 @@ permissions:
         default: false
     happyhotel.checkout:
         default: false
+    happyhotel.membership:
+        default: false
 commands:
     hh-info:
         description: Get all HappyHotel info
