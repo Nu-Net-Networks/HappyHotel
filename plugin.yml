@@ -1,6 +1,6 @@
 name: HappyHotel
-main: com.github.nu-net-networks.HappyHotel.HappyHotel
-version: 1.0beta
+main: com.github.nunetnetworks.HappyHotel.HappyHotel
+version: 0.1beta
 permissions:
     happyhotel.*:
         description: give access to all blocks
