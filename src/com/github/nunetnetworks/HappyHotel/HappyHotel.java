@@ -9,6 +9,8 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class HappyHotel extends JavaPlugin implements Listener {
 	
+	//private ConfigAccessor CA;
+	
 	@Override
 	public void onEnable() {
         this.saveDefaultConfig();
@@ -20,7 +22,7 @@ public class HappyHotel extends JavaPlugin implements Listener {
     		sender.sendMessage("§9--== §aHappy Hotel Info§9 ==--§f");
     		sender.sendMessage("§9Base Room Rate:§f " + HappyHotel.this.getConfig().getDouble("BaseRoomRate"));
     		sender.sendMessage("§9Membership System Status:§f " + HappyHotel.this.getConfig().getBoolean("membership"));
-    		//sender.sendMessage();
+    		//sender.sendMessage("Test" + CA.getConfig().getInt("BaseRoomRate"));
             return true;
     	} else if (cmd.getName().equalsIgnoreCase("hh-help")){ // If the player typed /basic then do the following...
     		List<String> help = HappyHotel.this.getConfig().getStringList("help");
