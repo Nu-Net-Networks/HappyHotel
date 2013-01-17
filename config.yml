@@ -1,4 +1,7 @@
 # default config.yml
+membership: true
+membershiprate: 0.1
+BaseRoomRate: 50.00
 info:
   - Rooms ##/##
   - Average Price Paid $##.##
@@ -6,4 +9,4 @@ info:
 help:
   - &L/hh-info&R - Hotel Info
   - &L/hh-help&R - HappyHotel Help (This)
-  
+  - $L/hh-points - check your points toword free room
